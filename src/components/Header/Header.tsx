@@ -1,11 +1,14 @@
-import { Container } from "./styles";
+import { Container, Logo } from "./styles";
+import logo from "../../assets/logo.svg";
 
 const Header = () => {
     return (
         <Container>
-            <div className="logo">Logo</div>
-            <div className="menu">Menu</div>
-            <div className="button">Botão</div>            
+            <Logo src={logo} />
+            <div>Quem sou eu</div>
+            <div>Sobre as aulas</div>     
+            <div>Preços</div>
+            <div>Contato</div>        
         </Container>
     )
 }

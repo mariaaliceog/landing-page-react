@@ -26,15 +26,33 @@ const GlobalStyle = createGlobalStyle`
   }
 
     button {
-        background-color: none;
-        border: none;
-        outline: none;
+      background-color: none;
+      border: none;
+      outline: none;
     }
 
     a {
-        text-decoration: none;
-        color: inherit;
-        outline: none;
+      text-decoration: none;
+      color: inherit;
+      outline: none;
+    }
+
+    body {
+      height: 100vh;
+      font-family: 'Lexend', sans-serif;
+      font-size: 16px;
+    }
+
+    h1 {
+      font-family: 'Lexend', sans-serif;
+      font-size: 36px;
+      font-weight: normal;
+    }
+
+    h2 {
+      font-family: 'Lexend', sans-serif;
+      font-size: 24px;
+      font-weight: lighter;
     }
 `
 
