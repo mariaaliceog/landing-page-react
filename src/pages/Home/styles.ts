@@ -54,7 +54,6 @@ export const IconsContent = styled.div`
   justify-content: space-between;
   align-items: center;
   gap: 5rem;
-
 `;
 
 export const LabelContent = styled.div`

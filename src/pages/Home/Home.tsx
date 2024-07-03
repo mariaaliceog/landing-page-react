@@ -17,6 +17,7 @@ import icon1 from "../../assets/aulas_ao_vivo.svg"
 import icon2 from "../../assets/study_plan.svg"
 import icon3 from "../../assets/atividades_diarias.svg"
 import icon4 from "../../assets/foco_nas_habilidades.svg"
+import Slider from "../../components/Slider/Slider";
 
 const Home = () => {
   return (
@@ -57,6 +58,7 @@ const Home = () => {
               </LabelContent>            
             </IconsContent>
           </Wrapper>
+          <Slider />
         </PageContent>
       </Container>    
   );
