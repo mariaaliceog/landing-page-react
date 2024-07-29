@@ -1,8 +1,9 @@
 import Header from "../../components/Header/Header";
-import { Container, PageContent } from "./styles"
+import Footer from "../../components/Footer/Footer";
 import WhoAmI from "./Sections/WhoAmI/WhoAmI";
 import Reasons from "./Sections/Reasons/Reasons";
 import SocialMedias from "../../components/SocialMedias/SocialMedias";
+import { Container, PageContent } from "./styles"
 
 const AboutMe = () => {
   return (
@@ -13,7 +14,8 @@ const AboutMe = () => {
           <Reasons />
           <SocialMedias />
         </PageContent>
-      </Container>   
+        <Footer />
+    </Container>   
   )
 }
 

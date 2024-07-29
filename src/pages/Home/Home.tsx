@@ -7,6 +7,7 @@ import {
 import Slider from "../../components/Slider/Slider";
 import AboutClasses from "./Sections/AboutClasses/AboutClasses";
 import LearnEnglish from "./Sections/LearnEnglish/LearnEnglish";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
           <AboutClasses />
           <Slider />
         </PageContent>
+        <Footer />
       </Container>    
   );
 }
