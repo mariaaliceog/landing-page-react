@@ -7,8 +7,7 @@ const Header = () => {
             <Logo src={logo} />
             <div>Quem sou eu</div>
             <div>Sobre as aulas</div>     
-            <div>Preços</div>
-            <div>Contato</div>        
+            <div>Preços</div>    
         </Container>
     )
 }
