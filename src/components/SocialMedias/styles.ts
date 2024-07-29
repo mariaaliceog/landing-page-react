@@ -1,40 +1,30 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
+  width: 100%;  
 
+  gap: 10px;
+  
   display: flex;
+  flex-direction: row;
   align-items: center;
-
-  flex-direction: column;
+  justify-content: center;
 `;
 
 export const TextContainer = styled.div`
-  margin-bottom: 59px;
-
   display: flex;
-  align-items: center;
-  flex-direction:  column;
+  flex-direction: column;
 `;
 
-export const ImageContainer = styled.div`
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
 export const Image = styled.img`
-  width: 10%;
+  width: 7rem;
   height: 5rem;
 `;
 
 export const Title = styled.div`
   font-size: 36px;
-  font-weight: 300;
 `;
 
 export const SubTitle = styled.div`
   font-size: 24px;
-  font-weight: 200;
 `;

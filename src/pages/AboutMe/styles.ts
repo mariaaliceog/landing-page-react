@@ -8,9 +8,11 @@ export const Container = styled.main`
 `;
 
 export const PageContent = styled.main`
-  margin: 1rem 0rem;
+  margin: 1rem 0rem 5rem 0rem;
 
-  display:flex;
+  gap: 5rem;
+  
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 `;

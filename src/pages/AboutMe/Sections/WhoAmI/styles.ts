@@ -26,7 +26,7 @@ export const Icon = styled.img`
 `;
 
 export const Wrapper = styled.section`
-  margin: 2rem 5rem;
+  margin: 2rem 5rem 0rem;
 
   display: flex;
   flex-direction: row;
@@ -38,13 +38,12 @@ export const Column = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 3rem;
 
   padding-left: 1rem;
 `;
 
-export const TextContent = styled.div`  
-  margin-bottom: 35px;
-
+export const TextContent = styled.div` 
   display: flex;
   flex-direction: row;
   align-items: center;
