@@ -14,5 +14,9 @@ export const PageContent = styled.main`
   flex-direction: column;
   justify-content: space-between;
 
-  gap: 5rem;
+  gap: 7rem;
+`;
+
+export const Brands = styled.img`
+  width: 100%;
 `;

@@ -1,7 +1,10 @@
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import Methodology from "./Sections/Methodology/Methodology";
 import Methods from "./Sections/Methods/Methods";
-import { Container, PageContent } from "./styles";
+import { Brands, Container, PageContent } from "./styles";
+import brands from "../../assets/brand.svg";
+import SocialMedias from "../../components/SocialMedias/SocialMedias";
 
 const AboutClasses = () => {
   return(
@@ -9,6 +12,9 @@ const AboutClasses = () => {
       <Header />
       <PageContent>
         <Methods />
+        <Methodology />
+        <Brands src={brands}/>
+        <SocialMedias />
       </PageContent>
       <Footer />
     </Container>

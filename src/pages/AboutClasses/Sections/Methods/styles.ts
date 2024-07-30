@@ -5,7 +5,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  margin: 5rem 2rem;
+  margin: 5rem 2rem 0rem 2rem;
 `;
 
 export const ImageContent = styled.section`
