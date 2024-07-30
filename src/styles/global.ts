@@ -54,6 +54,12 @@ const GlobalStyle = createGlobalStyle`
       font-size: 24px;
       font-weight: lighter;
     }
+
+    h3 {
+      font-family: 'Lexend', sans-serif;
+      font-size: 28px;
+      font-weight: normal;
+    }
 `
 
 export default GlobalStyle;
