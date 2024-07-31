@@ -16,3 +16,11 @@ export const Logo = styled.img`
   height: auto; 
   margin-right: 694px;
 `;
+
+export const Navigation = styled.div`
+  width: 100%;
+
+  &:hover{
+    cursor: pointer;
+  }
+`;
