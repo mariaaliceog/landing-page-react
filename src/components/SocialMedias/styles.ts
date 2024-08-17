@@ -24,7 +24,3 @@ export const Image = styled.img`
 export const Title = styled.div`
   font-size: 36px;
 `;
-
-export const SubTitle = styled.div`
-  font-size: 24px;
-`;

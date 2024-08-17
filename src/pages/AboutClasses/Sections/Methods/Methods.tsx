@@ -9,7 +9,7 @@ const Methods = () => {
     <Container>
       <h1 style={{ display: 'flex', justifyContent: 'center'}}>Sobre as aulas</h1>
       <Content>
-        <h3>Modalidades</h3>
+        <h2>Modalidades</h2>
         <ImageContent>
           <TextContent>            
             <Image src={general_english}></Image>

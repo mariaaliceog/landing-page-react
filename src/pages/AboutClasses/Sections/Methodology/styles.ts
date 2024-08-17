@@ -34,17 +34,15 @@ export const TextContent = styled.div`
 export const Icon = styled.img`
   width: 84px;
   height: 84px;
+
 `;
 
-export const Title = styled.div`
+export const Title = styled.h1`
   font-size: 24px;
-  font-weight: bold;
   text-align: center;
 `;
 
-export const Subtitle = styled.div`
-  font-size: 24px;
-  font-weight: normal;
+export const Subtitle = styled.h4`  
   text-align: center;
 `;
 

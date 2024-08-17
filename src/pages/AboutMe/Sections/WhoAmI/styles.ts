@@ -8,13 +8,12 @@ export const Content = styled.div`
   position: relative;
 `;
 
-export const Text = styled.div`
-  font-size: 36px;
-  font-weight: 300;
-  position: absolute;
-  transform: translate(-50%, -50%);
+export const Text = styled.h1`
   top: 45%;
   left: 20%;
+  
+  position: absolute;
+  transform: translate(-50%, -50%);
 `;
 
 export const Image = styled.img`
@@ -26,7 +25,7 @@ export const Icon = styled.img`
 `;
 
 export const Wrapper = styled.section`
-  margin: 2rem 5rem 0rem;
+  margin: 2rem 8rem 0rem;
 
   display: flex;
   flex-direction: row;
@@ -47,6 +46,8 @@ export const TextContent = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  gap: 10px;
 `;
 
 export const Label = styled.div`

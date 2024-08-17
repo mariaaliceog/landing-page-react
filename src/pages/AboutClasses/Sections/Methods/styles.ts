@@ -21,7 +21,7 @@ export const TextContent = styled.div`
   position: relative;
 `;
 
-export const Text = styled.div`
+export const Text = styled.h4`
   width: 100%;
   height: 58px;
   position: absolute;
@@ -31,7 +31,6 @@ export const Text = styled.div`
   align-items: center;
 
   bottom: 0;
-  font-size: 24px;
   font-weight: bold;
   color: #FFFFFF;
 

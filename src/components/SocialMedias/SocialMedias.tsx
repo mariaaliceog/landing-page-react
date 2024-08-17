@@ -8,7 +8,7 @@ const SocialMedias = () => {
     <Container>
         <TextContainer>
           <Title>O que você está esperando?</Title>
-          <SubTitle>Entre em contato comigo!</SubTitle>
+          <h4>Entre em contato comigo!</h4>
         </TextContainer>
         <a href="https://www.instagram.com/teacherdenise.ap/" target="_blank" rel="noopener noreferrer">       
           <Image src={insta} />        

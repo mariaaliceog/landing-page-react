@@ -18,29 +18,29 @@ const WhoAmI = () => {
         <Column>
           <TextContent>
             <Icon src={nieces} />
-            <Label>Comecei a ensinar inglês como um hobby para minhas sobrinhas</Label>
+            <h4>Comecei a ensinar inglês como um hobby para minhas sobrinhas</h4>
           </TextContent>
           <TextContent>
             <Icon src={star} />
-            <Label>Possuo mais de 5 anos de experiência como professora</Label>
+            <h4>Possuo mais de 5 anos de experiência como professora</h4>
           </TextContent>
           <TextContent>
             <Icon src={graduate} />
-            <Label>Formada em Letras com pós graduação em ensino de Língua Inglesa</Label>
+            <h4>Formada em Letras com pós graduação em ensino de Língua Inglesa</h4>
           </TextContent>
         </Column>
         <Column>
           <TextContent>
             <Icon src={baby} />
-            <Label>Comecei estudar inglês com 14 anos</Label>
+            <h4>Comecei estudar inglês com 14 anos</h4>
           </TextContent>          
           <TextContent>
             <Icon src={plane} />
-            <Label>Em 2017 fiz meu tão sonhado intercâmbio, 1 mês em Toronto, no Canadá.</Label>
+            <h4>Em 2017 fiz meu tão sonhado intercâmbio, 1 mês em Toronto, no Canadá.</h4>
           </TextContent>
           <TextContent>
             <Icon src={london} />
-            <Label>Em 2019 realizei mais um sonho e viajei para Londres</Label>
+            <h4>Em 2019 realizei mais um sonho e viajei para Londres</h4>
           </TextContent>
         </Column>
       </Wrapper>

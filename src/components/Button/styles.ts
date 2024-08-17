@@ -21,6 +21,5 @@ export const StyledButton = styled.div<{isPrimary?: boolean }>`
     background-color: ${({ isPrimary }) => (isPrimary ? '#FFFFFF' : '#3273DB')};
     border: 2px solid #3273DB;
     color: ${({ isPrimary }) => (isPrimary ? '#3273DB' : '#FFFFFF')};
-    font-weight: bold;
   }
 `;

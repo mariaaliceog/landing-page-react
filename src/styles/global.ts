@@ -39,25 +39,38 @@ const GlobalStyle = createGlobalStyle`
 
     body {
       height: 100vh;
-      font-family: 'Lexend', sans-serif;
-      font-size: 16px;
+      font-family: 'DM Serif Text', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
     }
 
     h1 {
-      font-family: 'Lexend', sans-serif;
+      font-family: 'DM Serif Text', sans-serif;
       font-size: 36px;
-      font-weight: normal;
+      font-weight: bold;
     }
 
     h2 {
-      font-family: 'Lexend', sans-serif;
-      font-size: 24px;
+      font-family: 'Urbanist', sans-serif;
+      font-size: 28px;
       font-weight: lighter;
     }
 
     h3 {
-      font-family: 'Lexend', sans-serif;
-      font-size: 28px;
+      font-family:'DM Serif Text', sans-serif;
+      font-size: 24px;
+      font-weight: normal;
+    }
+
+    h4 {
+      font-family:'Urbanist', sans-serif;
+      font-size: 20px;
+      font-weight: normal;
+    }
+
+    h5 {
+      font-family:'Urbanist', sans-serif;
+      font-size: 18px;
       font-weight: normal;
     }
 `

@@ -4,10 +4,7 @@ export const Container = styled.section`
   width: 100%; 
 `;
 
-export const Text = styled.div`
-  font-size: 36px;
-  font-weight: 300;
-
+export const Text = styled.h1` 
   display: flex;
   justify-content: center;
 `;
@@ -33,6 +30,7 @@ export const Row = styled.section`
   align-items: center;
 
   margin-bottom: 35px;
+  gap: 10px;
 `;
 
 export const TextContent = styled.div`  
@@ -41,11 +39,4 @@ export const TextContent = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-`;
-
-export const Label = styled.div`
-  margin-left: 31px;
-
-  font-size: 20px;
-  font-weight: 300;
 `;

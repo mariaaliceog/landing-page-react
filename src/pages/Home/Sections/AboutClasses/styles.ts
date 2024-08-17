@@ -32,6 +32,6 @@ export const Icon = styled.img`
 `;
 
 export const Label = styled.div`
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 `;

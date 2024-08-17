@@ -3,9 +3,9 @@ import { Container } from "./styles";
 const Footer = () => {
   return (
     <Container>
-      <div>Teacher Denise</div>
-      <div>Todos direitos reservados</div>
-      <div>2024</div>
+      <h5>Teacher Denise</h5>
+      <h5>Todos direitos reservados</h5>
+      <h5>2024</h5>
     </Container>
   )
 }

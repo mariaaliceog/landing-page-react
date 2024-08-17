@@ -2,7 +2,7 @@ import numberOne from "../../../../assets/1.svg"
 import numberTwo from "../../../../assets/2.svg"
 import numberThree from "../../../../assets/3.svg"
 import numberFour from "../../../../assets/4.svg"
-import { Container, Icon, Label, Row, Text, Wrapper } from "./styles"
+import { Container, Icon, Row, Text, Wrapper } from "./styles"
 
 const Reasons = () => {
   return (  
@@ -11,19 +11,19 @@ const Reasons = () => {
       <Wrapper>
         <Row>          
           <Icon src={numberOne} />
-          <Label>Comecei a ensinar inglês como um hobby para minhas sobrinhas</Label>          
+          <h4>Comecei a ensinar inglês como um hobby para minhas sobrinhas</h4>          
         </Row>
         <Row>          
           <Icon src={numberTwo} />
-          <Label>Aulas dinâmicas, com jogos, músicas, vídeos e muito conteúdo do dia a dia</Label>          
+          <h4>Aulas dinâmicas, com jogos, músicas, vídeos e muito conteúdo do dia a dia</h4>          
         </Row>
         <Row>          
           <Icon src={numberThree} />
-          <Label>Inglês no seu ritmo, respeitando seu tempo</Label>          
+          <h4>Inglês no seu ritmo, respeitando seu tempo</h4>          
         </Row>
         <Row>          
           <Icon src={numberFour} />
-          <Label>Ambiente descontraído para você falar em inglês sem medo, desde o primeiro dia</Label>          
+          <h4>Ambiente descontraído para você falar em inglês sem medo, desde o primeiro dia</h4>          
         </Row>
       </Wrapper>
     </Container>

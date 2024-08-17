@@ -13,11 +13,6 @@ export const TextContent = styled.div`
   flex-direction: column;
 `;
 
-export const Text = styled.div`
-  font-size: 18px;
-  font-weight: 300;
-`;
-
 export const Image = styled.img`
   width: 35rem;
 `;
