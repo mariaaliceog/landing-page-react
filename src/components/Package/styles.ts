@@ -9,6 +9,7 @@ export const Container = styled.div<{ isPromotion?: boolean }>`
   justify-content: center;
 
   flex-direction: column;
+  position: relative;
 
   border-radius: 10px;
   background-color: ${({ isPromotion }) => (isPromotion ? '#3273DB' : '#FFFFFF')};
@@ -58,4 +59,20 @@ export const PriceContainer = styled.div<{ isPromotion?: boolean }>`
 
 export const Image = styled.img`
   width: 200px;  
+`;
+
+export const ContainerPromotion = styled.div<{ isPromotion?: boolean }>`
+  top: -20px;
+  left: 50%;
+  padding: 5px 10px;
+
+  position: absolute;
+  transform: translateX(-50%);
+
+  background-color: #2843A1;
+  border-radius: 5px;
+`;
+
+export const TextPromotion = styled.h5`  
+  color: #FFFFFF;
 `;

@@ -1,4 +1,4 @@
-import { Container, Description, Image, Parcel, Price, PriceContainer, Subtitle, Title } from "./styles";
+import { Container, ContainerPromotion, Description, Image, Parcel, Price, PriceContainer, Subtitle, TextPromotion, Title } from "./styles";
 
 interface Props{
   title: string;
@@ -13,6 +13,11 @@ interface Props{
 const Package = ({ title, parcel, price, subtitle, image, isPromotion, description }: Props) => {
   return (
     <Container isPromotion={isPromotion}>
+       {isPromotion && (      
+        <ContainerPromotion isPromotion={isPromotion}>
+          <TextPromotion>RECOMENDADO</TextPromotion>
+        </ContainerPromotion>      
+       )}
       <Title isPromotion={isPromotion}>{title}</Title>
       <Subtitle isPromotion={isPromotion}>{subtitle}</Subtitle>
       <PriceContainer isPromotion={isPromotion}>
