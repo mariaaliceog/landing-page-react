@@ -7,7 +7,7 @@ import business from "../../../../assets/negocios.svg";
 const Methods = () => {
   return(
     <Container>
-      <h1>Sobre as aulas</h1>
+      <h1 style={{ display: 'flex', justifyContent: 'center'}}>Sobre as aulas</h1>
       <Content>
         <h3>Modalidades</h3>
         <ImageContent>

@@ -9,10 +9,18 @@ const SocialMedias = () => {
         <TextContainer>
           <Title>O que você está esperando?</Title>
           <SubTitle>Entre em contato comigo!</SubTitle>
-        </TextContainer>        
-        <Image src={insta} />
-        <Image src={whatsapp} />
-        <Image src={linkedin} />        
+        </TextContainer>
+        <a href="https://www.instagram.com/teacherdenise.ap/" target="_blank" rel="noopener noreferrer">       
+          <Image src={insta} />        
+        </a>
+        <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">       
+          <Image src={whatsapp} />        
+        </a>
+        <a href="https://www.linkedin.com/in/denise-oliveira-aguiar-a9316b33/" target="_blank" rel="noopener noreferrer">       
+          <Image src={linkedin} />        
+        </a>
+        
+                
     </Container>
   )
 }
