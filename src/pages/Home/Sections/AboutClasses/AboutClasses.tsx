@@ -3,8 +3,9 @@ import icon2 from "../../../../assets/study_plan.svg"
 import icon3 from "../../../../assets/atividades_diarias.svg"
 import icon4 from "../../../../assets/foco_nas_habilidades.svg"
 import { Container, Icon, IconsContent, Label, LabelContent } from "./styles"
+import Button from "../../../../components/Button/Button"
 
-const AboutClasses = () => { 
+const AboutClasses = () => {   
   return(
     <Container>
       <h1>Como funcionam as aulas?</h1>
@@ -30,6 +31,11 @@ const AboutClasses = () => {
           <div>Leitura, escrita, fala e escuta</div>
         </LabelContent>            
       </IconsContent>
+      <Button
+        isPrimary={true}
+        label="Saiba Mais!" 
+        to={"/aboutClasses"}      
+      />
     </Container>
   )
 }

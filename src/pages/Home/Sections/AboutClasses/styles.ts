@@ -2,20 +2,22 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   padding: 2rem;
+
   display:flex;
   flex-direction: column;
   align-items: center;
+
+  gap: 3rem;
 
   background-color: #66BADE;
 `;
 
 export const IconsContent = styled.div`
-  margin-top: 2rem;
-
   display:flex;
   flex-direction: row;  
   justify-content: space-between;
   align-items: center;
+
   gap: 5rem;
 `;
 

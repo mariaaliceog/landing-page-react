@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  margin: 0rem 2rem 0rem 2rem;
+  margin: 0rem 4rem 0rem 4rem;
 
   display:flex;
   flex-direction: row;
@@ -14,7 +14,7 @@ export const TextContent = styled.div`
 `;
 
 export const Text = styled.div`
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
 `;
 
