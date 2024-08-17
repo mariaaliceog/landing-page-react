@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div<{ isPromotion?: boolean }>`
-  width: 518px;
-  height: 671px;
+  width: ${({isPromotion}) => (isPromotion ? '350px' : '310px')};
+  height: ${({isPromotion}) => (isPromotion ? '500px' : '450px')};
   
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@ export const Container = styled.div<{ isPromotion?: boolean }>`
 `;
 
 export const Title = styled.div<{ isPromotion?: boolean }>`
-  font-size: 48px;
+  font-size: 32px;
   color: ${({ isPromotion }) => (isPromotion ? '#FFFFFF' : '#3273DB')};
 `;
 
@@ -28,23 +28,23 @@ export const Subtitle = styled.div<{ isPromotion?: boolean }>`
 `;
 
 export const Price = styled.div<{ isPromotion?: boolean }>`
-  font-size: 48px;
+  font-size: 32px;
   color: ${({ isPromotion }) => (isPromotion ? '#3273DB' : '#FFFFFF')};
 `;
 
 export const Parcel = styled.div<{ isPromotion?: boolean }>`
-  font-size: 24px;
+  font-size: 18px;
   color: ${({ isPromotion }) => (isPromotion ? '#3273DB' : '#FFFFFF')};
 `;
 
 export const Description = styled.div<{ isPromotion?: boolean }>`
-  font-size: 24px;
+  font-size: 20px;
   color: ${({ isPromotion }) => (isPromotion ? '#FFFFFF' : '#3273DB')};
 `;
 
 export const PriceContainer = styled.div<{ isPromotion?: boolean }>`
-  width: 351px;
-  height: 91px;
+  width: 200px;
+  height: auto;
   
   display:flex;
   align-items: center;
@@ -57,5 +57,5 @@ export const PriceContainer = styled.div<{ isPromotion?: boolean }>`
 `;
 
 export const Image = styled.img`
-  width: 303px;  
+  width: 200px;  
 `;

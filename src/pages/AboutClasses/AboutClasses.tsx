@@ -5,6 +5,7 @@ import Methods from "./Sections/Methods/Methods";
 import { Brands, Container, PageContent } from "./styles";
 import brands from "../../assets/brand.svg";
 import SocialMedias from "../../components/SocialMedias/SocialMedias";
+import Prices from "./Sections/Prices/Prices";
 
 const AboutClasses = () => {
   return(
@@ -14,6 +15,7 @@ const AboutClasses = () => {
         <Methods />
         <Methodology />
         <Brands src={brands}/>
+        <Prices />
         <SocialMedias />
       </PageContent>
       <Footer />

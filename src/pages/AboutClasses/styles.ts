@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const PageContent = styled.main`
-  margin: 5rem 0rem 5rem 0rem;
+  margin: 2rem 0rem 5rem 0rem;
 
   display:flex;
   flex-direction: column;
