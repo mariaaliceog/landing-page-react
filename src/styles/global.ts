@@ -51,7 +51,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h2 {
-      font-family: 'Urbanist', sans-serif;
+      font-family: 'Red Hat Display', sans-serif;
       font-size: 28px;
       font-weight: lighter;
     }
@@ -63,13 +63,13 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h4 {
-      font-family:'Urbanist', sans-serif;
+      font-family:'Red Hat Display', sans-serif;
       font-size: 20px;
       font-weight: normal;
     }
 
     h5 {
-      font-family:'Urbanist', sans-serif;
+      font-family:'Red Hat Display', sans-serif;
       font-size: 18px;
       font-weight: normal;
     }

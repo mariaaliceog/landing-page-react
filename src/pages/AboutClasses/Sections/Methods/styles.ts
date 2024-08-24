@@ -14,11 +14,11 @@ export const ImageContent = styled.section`
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
 `;
 
 export const TextContent = styled.div`
-  position: relative;
+  position: relative;   
 `;
 
 export const Text = styled.h4`
@@ -35,10 +35,16 @@ export const Text = styled.h4`
   color: #FFFFFF;
 
   background-color: #3273DB;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 10px;
+
 `
 
 export const Image = styled.img`
   width: 288px;
   height: 391px;
+  transition: 0.5s;
+
+  &:hover{
+    transform: scale(1.1);
+  }
 `;

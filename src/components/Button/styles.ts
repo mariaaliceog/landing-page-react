@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledButton = styled.div<{isPrimary?: boolean }>`
   width: 200px;
-  height: 40px;
+  height: 50px;
 
   display: flex;
   align-items: center;
@@ -12,8 +12,8 @@ export const StyledButton = styled.div<{isPrimary?: boolean }>`
   border: ${({ isPrimary }) => (isPrimary ? '' : '2px solid #3273DB')};
   background-color: ${({ isPrimary }) => (isPrimary ? '#3273DB' : '#FFFFFF')};
   border-radius: 10px;
-
-  font-size: 20px;
+  
+  font-size: 22px;
   
   cursor: pointer;
 

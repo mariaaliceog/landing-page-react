@@ -6,7 +6,7 @@ import Package from "../../../../components/Package/Package";
 const Prices = () => {
   return (
     <Container>  
-        <h1>Destrave seu Futuro com o Inglês! 🌍</h1>
+        <h1 style={{color: '#FFFFFF'}}>Destrave seu Futuro com o Inglês! 🌍</h1>
         <Content>
           <Text>Quer avançar na carreira, viajar pelo mundo,ou simplesmente dominar um novo idioma? As nossas aulas de inglês são a chave que você precisa!</Text>
           <PackageContainer>               

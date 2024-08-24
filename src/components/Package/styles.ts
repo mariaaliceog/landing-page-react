@@ -18,7 +18,7 @@ export const Container = styled.div<{ isPromotion?: boolean }>`
   gap: 20px;
 `;
 
-export const Title = styled.div<{ isPromotion?: boolean }>`
+export const Title = styled.h1<{ isPromotion?: boolean }>`
   font-size: 32px;
   color: ${({ isPromotion }) => (isPromotion ? '#FFFFFF' : '#3273DB')};
 `;

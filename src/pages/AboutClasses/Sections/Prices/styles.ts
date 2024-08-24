@@ -1,25 +1,29 @@
 import styled from 'styled-components';
 
 
-export const Container = styled.div`
-  margin: 0rem 1rem 0rem 1rem;
-
+export const Container = styled.div`  
   display: flex;
   align-items: center;
   justify-content: center;
 
+  background-image: url("src/assets/earth.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   flex-direction: column;
-  gap: 100px;
+  padding: 3rem 0;
+  gap: 60px;
 `;
 
 export const Content = styled.div`
-  width: 90%;
+  width: 65%;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
-  gap: 50px;
+  gap: 60px;
 `;
 
 export const PackageContainer = styled.section`
@@ -34,8 +38,11 @@ export const PackageContainer = styled.section`
   gap: 50px;  
 `;
 
-export const Text = styled.div`
-  font-size: 24px;
-  font-weight: 300;
+export const Text = styled.h4`
+  text-align: center;
+
+  font-size: 22px;
+  font-weight: 600;
+  color: #FFFFFF;
 `;
 

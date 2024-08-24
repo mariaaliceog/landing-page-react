@@ -13,12 +13,12 @@ const AboutClasses = () => {
         <LabelContent>
           <Icon src={icon1}></Icon>
           <Label>Aulas ao vivo</Label>
-          <h5>1 hora de duração</h5>
+          <h5>Aulas de 1 hora para prática intensiva e imersiva</h5>
         </LabelContent>
         <LabelContent>
           <Icon src={icon2}></Icon>
           <Label>Study Plan</Label>
-          <h5>Planos de estudos semanal</h5>
+          <h5>Planos de estudo semanal para maximizar o aprendizado</h5>
         </LabelContent>
         <LabelContent>
           <Icon src={icon3}></Icon>
@@ -28,7 +28,7 @@ const AboutClasses = () => {
         <LabelContent>
           <Icon src={icon4}></Icon>
           <Label>Foco nas 4 habilidades</Label>
-          <h5>Leitura, escrita, fala e escuta</h5>
+          <h5>Desenvolva leitura, escrita, fala e escuta para um inglês fluente</h5>
         </LabelContent>            
       </IconsContent>
       <Button

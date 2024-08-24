@@ -30,7 +30,7 @@ export const Row = styled.section`
   align-items: center;
 
   margin-bottom: 35px;
-  gap: 10px;
+  gap: 20px;
 `;
 
 export const TextContent = styled.div`  
