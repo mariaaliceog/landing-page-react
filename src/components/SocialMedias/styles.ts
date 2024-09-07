@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from "../../styles/devices"
 
 export const Container = styled.div`
   width: 100%;  
@@ -9,6 +10,24 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
+  @media ${device.mobileL} {    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  @media ${device.mobileS} {    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  @media ${device.mobileM} {    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 `;
 
 export const TextContainer = styled.div`

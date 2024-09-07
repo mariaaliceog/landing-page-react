@@ -1,11 +1,12 @@
 import styled from 'styled-components';
+import { device } from '../../../../styles/devices'
 
 export const Container = styled.div`
-  margin: 0rem 2rem 0rem 2rem;
+  margin: 0rem 2rem 0rem 2rem;  
 `;
 
 export const Content = styled.div`
-  margin: 5rem 2rem 0rem 2rem;
+  margin: 5rem 2rem 0rem 2rem; 
 `;
 
 export const ImageContent = styled.section`
@@ -15,6 +16,22 @@ export const ImageContent = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;  
+
+  @media ${device.mobileM} {
+    flex-direction: column;
+  }
+
+  @media ${device.mobileL} {
+    flex-direction: column;
+  }
+
+  @media ${device.mobileS} {
+    flex-direction: column;
+  }
+
+  @media ${device.tablet} {
+    flex-direction: column;
+  }
 `;
 
 export const TextContent = styled.div`

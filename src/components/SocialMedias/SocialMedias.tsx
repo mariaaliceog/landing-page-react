@@ -1,7 +1,7 @@
 import insta from "../../assets/insta.svg"
 import whatsapp from "../../assets/whatsapp.svg"
 import linkedin from "../../assets/linkedin.svg"
-import { Container, Image, SubTitle, TextContainer, Title } from "./styles"
+import { Container, Image, TextContainer, Title } from "./styles"
 
 const SocialMedias = () => {
   return (
@@ -18,9 +18,7 @@ const SocialMedias = () => {
         </a>
         <a href="https://www.linkedin.com/in/denise-oliveira-aguiar-a9316b33/" target="_blank" rel="noopener noreferrer">       
           <Image src={linkedin} />        
-        </a>
-        
-                
+        </a>               
     </Container>
   )
 }

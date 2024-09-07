@@ -1,11 +1,12 @@
 import styled from 'styled-components';
+import { device } from "../../../../styles/devices"
 
 export const Container = styled.section`
   width: 100%;
 `;
 
 export const Content = styled.div`
-  position: relative;
+  position: relative;  
 `;
 
 export const Text = styled.h1`
@@ -14,6 +15,24 @@ export const Text = styled.h1`
   
   position: absolute;
   transform: translate(-50%, -50%);
+
+  @media ${device.mobileM} {    
+    max-width: 100%;
+    font-size: 22px;
+    margin-left: 2rem;
+  }
+
+  @media ${device.mobileL} {    
+    max-width: 100%;
+    font-size: 22px;
+    margin-left: 2rem;
+  }
+
+  @media ${device.mobileS} {    
+    max-width: 100%;
+    font-size: 22px;
+    margin-left: 2rem;
+  }
 `;
 
 export const Image = styled.img`
@@ -29,6 +48,27 @@ export const Wrapper = styled.section`
 
   display: flex;
   flex-direction: row;
+
+  @media ${device.mobileM} {    
+    max-width: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media ${device.mobileS} {    
+    max-width: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media ${device.mobileL} {    
+    max-width: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const Column = styled.section`
@@ -39,7 +79,26 @@ export const Column = styled.section`
   justify-content: center;
   gap: 3rem;
 
-  padding-left: 1rem;
+  padding-left: 1rem;  
+
+  @media ${device.mobileM} {    
+    width: 100%;
+    gap: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  @media ${device.mobileS} {    
+    width: 100%;
+    gap: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  @media ${device.mobileL} {    
+    width: 100%;
+    gap: 4rem;
+    margin-bottom: 4rem;
+  }
+  
 `;
 
 export const TextContent = styled.div` 

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../../../styles/devices';
 
 export const Container = styled.div`
   margin: 0rem 1rem 0rem 1rem;
@@ -17,6 +18,24 @@ export const Content = styled.div`
   flex-direction: row;
 
   gap: 20px;
+
+  @media ${device.mobileL} {        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media ${device.mobileM} {        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media ${device.mobileS} {        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const TextContent = styled.div` 
@@ -34,7 +53,6 @@ export const TextContent = styled.div`
 export const Icon = styled.img`
   width: 84px;
   height: 84px;
-
 `;
 
 export const Title = styled.h1`
@@ -48,6 +66,18 @@ export const Subtitle = styled.h4`
 
 export const PlusIcon = styled.img`
   width: 64px;
+  
+  @media ${device.mobileL} {        
+    width: 24px;
+  }
+
+  @media ${device.mobileM} {        
+    width: 24px;
+  }
+
+  @media ${device.mobileS} {        
+    width: 24px;
+  }
 `;
 
 

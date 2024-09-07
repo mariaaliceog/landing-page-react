@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { device } from './devices';
 
 const GlobalStyle = createGlobalStyle`
     *, *::after, *::before {
@@ -20,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
       font-size: 81.25%;
     }
 
-    @media (max-width: 600px) {
+    @media ${device.mobileM} {    
       font-size: 75%;
     }
   }

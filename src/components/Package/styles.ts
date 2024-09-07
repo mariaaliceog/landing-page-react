@@ -10,6 +10,7 @@ export const Container = styled.div<{ isPromotion?: boolean }>`
 
   flex-direction: column;
   position: relative;
+  text-align: center;
 
   border-radius: 10px;
   background-color: ${({ isPromotion }) => (isPromotion ? '#3273DB' : '#FFFFFF')};

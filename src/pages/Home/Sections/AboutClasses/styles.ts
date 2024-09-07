@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from "../../../../styles/devices"
 
 export const Container = styled.section`
   padding: 2rem;
@@ -6,6 +7,7 @@ export const Container = styled.section`
   display:flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 
   gap: 5rem;
 `;
@@ -19,11 +21,31 @@ export const IconsContent = styled.div`
   align-items: center;
 
   gap: 3rem;
+
+  @media ${device.mobileM} {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media ${device.mobileS} {    
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media ${device.mobileL} {    
+    display: flex;
+    flex-direction: column; 
+  }
+
+  @media ${device.tablet} {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const LabelContent = styled.div`
   width: 100%;
-  height: 300px;
+  height: auto;
 
   display:flex;
   flex-direction: column;  
@@ -34,21 +56,29 @@ export const LabelContent = styled.div`
   background-color: #66BADE59;
   border-radius: 10px;
   gap: 3px;
-  padding: 0rem 1rem;
+  padding: 1rem;
+
+  @media ${device.mobileM} {
+    height: auto;
+  }
+
+  @media ${device.mobileS} {    
+    height: auto;
+  }
+
+  @media ${device.mobileL} {    
+    height: auto;
+  }
 `;
 
 export const Icon = styled.img`
   width: 12rem;
   height: 12rem;
 
-  position: relative;
-  top: -50px;
+  margin-bottom: 1rem;
 `;
 
 export const Label = styled.div`
   font-size: 20px;
   font-weight: bold;
- 
-  border-radius: 5px;
-  padding: 0rem 0.5rem;
 `;
